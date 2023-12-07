@@ -103,50 +103,51 @@ json-server -w data/db.json -p 9000
 
 <br>
 
-The JWT I created for admin with roles ****'ADMIN'**** and ****'USER'****
+<br>
 
-<img src="captures/jwt-admin.png">
+The JWT I created for admin with roles **'ADMIN'** and **'USER'**
+
+![Admin JWT](captures/jwt-admin.png)
 
 <br>
 
-The login page :
+The login page:
 
-<img src="captures/auth-admin.png">
-
-<br>
-
-as an ****'ADMIN'**** he can check all products, modify and delete each of'em
-
-<img src="captures/products.png">
+![Login Page](captures/auth-admin.png)
 
 <br>
 
-to create a product there is some requires we should respect 
+As an **'ADMIN'**, he can check all products, modify, and delete each of them:
 
-<img src="captures/create.png">
-
-<br>
-
-A message with pipe json shows when the product is created
-
-<img src="captures/product-created.png">
+![Admin Products](captures/products.png)
 
 <br>
 
-The JWT I created for user1 with role ****'USER'****
+To create a product, there are some requirements we should respect:
 
-
-<img src="captures/jwt-user.png">
-
-<br>
-
-as an ****'USER'**** he can only see the products
-
-
-<img src="captures/products-user.png">
+![Create Product](captures/create.png)
 
 <br>
 
-Once the ****'USER'**** is trying to create a product he gets this ***"notAuthorized"*** page
+A message with pipe JSON shows when the product is created:
 
-<img src="captures/not-authorized.png">
+![Product Created](captures/product-created.png)
+
+<br>
+
+The JWT I created for user1 with role **'USER'**
+
+![User JWT](captures/jwt-user.png)
+
+<br>
+
+As a **'USER'**, he can only see the products:
+
+![User Products](captures/products-user.png)
+
+<br>
+
+Once the **'USER'** is trying to create a product, he gets this **"notAuthorized"** page:
+
+![Not Authorized](captures/not-authorized.png)
+
