@@ -1,0 +1,82 @@
+{
+  "products": [
+    {
+      "name": "Alpha",
+      "price": 120,
+      "checked": true,
+      "id": 1
+    },
+    {
+      "name": "Beta",
+      "price": 45,
+      "checked": false,
+      "id": 2
+    },
+    {
+      "name": "Gamma",
+      "price": 299,
+      "checked": false,
+      "id": 3
+    },
+    {
+      "name": "Delta",
+      "price": 599,
+      "checked": true,
+      "id": 4
+    },
+    {
+      "name": "Epsilon",
+      "price": "720",
+      "checked": true,
+      "id": 5
+    },
+    {
+      "name": "Zeta",
+      "price": "499",
+      "checked": true,
+      "id": 6
+    },
+    {
+      "name": "Eta",
+      "price": "1200",
+      "checked": false,
+      "id": 7
+    },
+    {
+      "name": "Theta",
+      "price": "799",
+      "checked": true,
+      "id": 8
+    },
+    {
+      "name": "Iota",
+      "price": "25",
+      "checked": true,
+      "id": 9
+    },
+    {
+      "name": "Kappa",
+      "price": "888",
+      "checked": true,
+      "id": 10
+    },
+    {
+      "name": "gamma",
+      "price": "78999",
+      "checked": true,
+      "id": 11
+    }
+  ],
+  "users": [
+    {
+      "id": "user1",
+      "password": "MTIzNA==",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMSIsIm5hbWUiOiJhbWluZSIsImVtYWlsIjoidXNlckBnbWFpbC5jb20iLCJpYXQiOjE1MTYyMzkwMjIsInJvbGVzIjpbIlVTRVIiXX0.OCabuk1rmfdIs4Yv-kBE4Rp7PvmM3JUFZcOV1WIh-C8"
+    },
+    {
+      "id": "admin",
+      "password": "MTIzNA==",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsIm5hbWUiOiJhbWluZSIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwiaWF0IjoxNTE2MjM5MDIyLCJyb2xlcyI6WyJVU0VSIiwiQURNSU4iXX0.hQrVKZ34EYPZaGraHzFd8EyhShRyw-r4dKPCp3SN2KA"
+    }
+  ]
+}
