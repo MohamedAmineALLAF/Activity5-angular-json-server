@@ -28,43 +28,38 @@ json-server -w data/db.json -p 9000
 
 The JWT I created for admin with roles **'ADMIN'** and **'USER'**
 
-![Admin JWT](captures/jwt-admin.jpg)
+![Admin JWT](captures/admin-json.jpg)
 
 <br>
 
 The login page:
 
-![Login Page](captures/auth-admin.jpg)
+![Login Page](captures/login-page.jpg)
 
 <br>
 
 As an **'ADMIN'**, he can check all products, modify, and delete each of them:
 
-![Admin Products](captures/products.jpg)
+![Admin Products](captures/admin-products.jpg)
 
 <br>
 
-To create a product, there are some requirements we should respect:
+To create a product, we get this message:
 
-![Create Product](captures/create.jpg)
-
-<br>
-
-A message with pipe JSON shows when the product is created:
-
-![Product Created](captures/product-created.jpg)
+![Create Product](captures/save-product.jpg)
 
 <br>
 
-The JWT I created for user1 with role **'USER'**
 
-![User JWT](captures/jwt-user.jpg)
+JWT created for user1 with role **'USER'**
+
+![User JWT](captures/user-jwt.jpg)
 
 <br>
 
 As a **'USER'**, he can only see the products:
 
-![User Products](captures/products-user.jpg)
+![User Products](captures/user-show.jpg)
 
 <br>
 
