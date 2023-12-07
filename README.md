@@ -1,5 +1,4 @@
 # Angular project with json server
-<hr>
 
 This Angular project is a comprehensive web application that seamlessly integrates with a JSON Server, providing a robust backend for data management. The project leverages the power of Angular, a widely used front-end framework, to create a dynamic and interactive user interface.
 
@@ -11,12 +10,6 @@ This Angular project is a comprehensive web application that seamlessly integrat
 
 - **JSON Server Auth:** An extension for JSON Server that adds authentication capabilities, ensuring secure access to different parts of the application.
 
-
-<br>
-
-
-
-<br>
 
 <br>
 
